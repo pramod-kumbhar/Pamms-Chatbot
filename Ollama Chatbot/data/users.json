@@ -1,0 +1,35 @@
+{
+  "kumbharpramod834@gmail.com": {
+    "name": "Pramod Kumbhar",
+    "email": "kumbharpramod834@gmail.com",
+    "salt": "d2d0dd8c2d057de139dfd64447765c82",
+    "password_hash": "1949f2e5df366f9aec508de345611b87b4baf2543e166fe0d248ab479c53f881",
+    "is_verified": true,
+    "verification_code": "",
+    "created_at": "2026-06-28T21:46:02",
+    "token_balance": 100000,
+    "plan": "Business",
+    "subscribed_at": "2026-06-28T23:58:31",
+    "messages_used": 4
+  },
+  "pramodkumbhar2002@gmail.com": {
+    "name": "Pamms",
+    "email": "pramodkumbhar2002@gmail.com",
+    "salt": "c675ff61fd7d5a85847f059c95951c6c",
+    "password_hash": "0b9ddafc5e203027c89ade5a2e53961e5df44f50a35a637fd7ec84b9643a14fd",
+    "is_verified": true,
+    "verification_code": "",
+    "created_at": "2026-06-28T23:10:32"
+  },
+  "pamms.07@gmail.com": {
+    "name": "Pramod",
+    "email": "pamms.07@gmail.com",
+    "salt": "ff8c4cabf6075ef6cf1d47e3cd264bc3",
+    "password_hash": "019bdc68f9d99cc9c8ebcdc8b3571c4e38fcf7a988333ba40bf824909a4f4712",
+    "is_verified": true,
+    "verification_code": "",
+    "plan": "Free",
+    "messages_used": 2,
+    "created_at": "2026-06-29T10:58:51"
+  }
+}

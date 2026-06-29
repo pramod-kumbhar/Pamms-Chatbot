@@ -1,0 +1,74 @@
+{
+  "c16ee421-2772-49e1-b5d9-843dbdc49b33": {
+    "title": "hii",
+    "created_at": "2026-06-28T21:46:51",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hii",
+        "attachments": [],
+        "created_at": "2026-06-28T23:58:48"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! It's nice to meet you! I'm here to help with any questions or problems you might have. What's on your mind today?",
+        "attachments": [],
+        "created_at": "2026-06-28T23:59:06"
+      },
+      {
+        "role": "user",
+        "content": "hello",
+        "attachments": [],
+        "created_at": "2026-06-29T12:43:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! It seems like we're starting a conversation. How can I assist you today?",
+        "attachments": [],
+        "created_at": "2026-06-29T12:43:28"
+      }
+    ],
+    "cleared_at": "2026-06-28T23:53:06"
+  },
+  "ab62a2bd-04c3-45bc-a1d5-3f86207fe191": {
+    "title": "New chat",
+    "created_at": "2026-06-28T21:51:22",
+    "messages": []
+  },
+  "a9a52f94-5eeb-4d32-ab89-b41ed1f52d99": {
+    "title": "hii",
+    "created_at": "2026-06-28T23:59:14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hii",
+        "attachments": [],
+        "created_at": "2026-06-28T23:59:17"
+      },
+      {
+        "role": "assistant",
+        "content": " Hello! How can I help you today?",
+        "attachments": [],
+        "created_at": "2026-06-28T23:59:30"
+      }
+    ]
+  },
+  "7b661f0e-61e6-458b-ba86-a52c87cdcc93": {
+    "title": "which is the most famous animal",
+    "created_at": "2026-06-28T23:59:39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "which is the most famous animal",
+        "attachments": [],
+        "created_at": "2026-06-28T23:59:57"
+      },
+      {
+        "role": "assistant",
+        "content": " The most famous animal is likely the lion, especially due to its symbolic representation in many cultures and media outlets. However, it's important to note that fame can be relative and there are other animals like pandas, dolphins, or elephants that may be considered famous in certain contexts.",
+        "attachments": [],
+        "created_at": "2026-06-29T00:00:07"
+      }
+    ]
+  }
+}

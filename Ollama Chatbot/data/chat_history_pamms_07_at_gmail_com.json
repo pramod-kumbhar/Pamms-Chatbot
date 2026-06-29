@@ -1,0 +1,32 @@
+{
+  "394a4ec2-c120-4276-96ac-3a0816a6a30b": {
+    "title": "which is capital city of maharashtra",
+    "created_at": "2026-06-29T11:00:35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "which is capital city of maharashtra",
+        "attachments": [],
+        "created_at": "2026-06-29T11:01:16"
+      },
+      {
+        "role": "assistant",
+        "content": "The capital city of Maharashtra is Mumbai.",
+        "attachments": [],
+        "created_at": "2026-06-29T11:01:32"
+      },
+      {
+        "role": "user",
+        "content": "perform simple CRUD operation using python",
+        "attachments": [],
+        "created_at": "2026-06-29T11:02:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a simple example of a CRUD (Create, Read, Update, Delete) operation in Python using SQLite as the database. We'll create a TodoList app where you can add, read, update, and delete tasks.\n\n**Note:** This is a basic example to demonstrate the concept. You may want to add more functionality, error handling, and security measures depending on your use case.\n\n```python\nimport sqlite3\n\n# Connect to the database (create it if it doesn't exist)\nconn = sqlite3.connect('todo_list.db')\n\n# Create a cursor object\nc = conn.cursor()\n\n# Create table (if it doesn't already exist)\nc.execute(\"\"\"CREATE TABLE IF NOT EXISTS tasks (\n            task_id INTEGER PRIMARY KEY,\n            task_name TEXT,\n            task_description TEXT,\n            completed INTEGER DEFAULT 0\n            )\"\"\")\n\nclass TodoList:\n    def __init__(self):\n        self.conn = conn\n\n    # Create (add) a new task\n    def create(self, name, description):\n        c.execute(\"INSERT INTO tasks (task_name, task_description) VALUES (?, ?)\", (name, description))\n        self.conn.commit()\n\n    # Read all tasks\n    def read_all(self):\n        c.execute(\"SELECT * FROM tasks\")\n        return c.fetchall()\n\n    # Read a specific task by ID\n    def read_one(self, task_id):\n        c.execute(\"SELECT * FROM tasks WHERE task_id = ?\", (task_id,))\n        return c.fetchone()\n\n",
+        "attachments": [],
+        "created_at": "2026-06-29T11:02:56"
+      }
+    ]
+  }
+}
